@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+.cont{
+    background-image: url('../images/parr.jpg');
+    /* background-image: url('https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445_1280.jpg'); */
+    /* background-image: url('https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_640.jpg'); */
+    /* background-image: url('https://cdn.pixabay.com/photo/2012/02/24/16/59/swan-16736_640.jpg'); */
+    /* background-image: url('https://cdn.pixabay.com/photo/2021/04/14/11/04/eye-6178082_640.jpg'); */
+    background-size: 100% 100%;
+    width: 100%;
+    background-position:right;
+    height: 100vh;
+    background-repeat:repeat; 
+}
+.prod{
+    background-image: url('../images/corm.avif');
+    width: 100%;
+    background-position:right;
+    height: 100vh;
+    background-repeat:no-repeat; 
+    background-size: 100% 100%;
+ 
+}
+.formss{
+    background-color:black;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    clip-path: polygon(75% 0%, 34% 57%, 75% 100%, 0% 100%, 0 57%, 0% 0%);
+    /* color: white; */
+
+}
+
+.formss form{
+    background-color:rgba(80, 78, 78, 0.007);
+    height: fit-content;
+    /* padding-top: 30px; */
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 50px;
+    /* margin-top: 20px; */
+    color: white;
+    width: 30%;
+
+
+}
+.formss{
+    background-color:rgba(80, 78, 78, 0.007);
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    width: 30%;
+  
+}
+form .inps{
+    width: 100%;
+    border: none;
+    /* border: 1px solid rgba(255, 255, 255, 0.693); */
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to left, #ccff99 0%, #ffccff 100%)1;
+    margin-top: 5px;
+    border-radius: 7px;
+}
+.formss textarea{
+    width: 100%;
+    border: none;
+    /* border: 1px solid rgba(255, 255, 255, 0.693); */
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to left, #ccff99 0%, #ffccff 100%)1;
+    margin-top: 5px;
+    border-radius: 7px;
+}
+.form a{
+    color: white;
+}
+form .buts{
+    text-align: center;
+}
+form .buts button{
+    background: linear-gradient(to bottom, #c1fe85 0%, #fea2fe 100%);
+    color:rgba(0, 0, 0, 0.461);
+    width: 50%;
+    transition: 0.5s ease-in-out;
+    font-weight: 900;
+}
+form .buts button:hover{
+    width: 100%;
+    color: white;
+    color:rgba(0, 0, 0, 0.461);
+}
+.cont h2{
+    background: linear-gradient(to bottom, #ccff99 0%, #ffccff 100%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+.ups h2{
+    background: linear-gradient(to bottom, #ccff99 0%, #ffccff 100%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+.prod h2{
+    background: linear-gradient(to bottom, #ccff99 0%, #ffccff 100%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+
+}
+.icon i{
+    color: white;
+    padding:10px ;
+  }
+  .icon{
+    text-align: center;
+  }
+  .icon .face{
+    background-color:blue ;
+    border-radius: 50%;
+  }
+  .icon .twit{
+    background-color:dodgerblue;
+    border-radius: 50%;
+  }
+  .icon .what{
+    background-color: lime;
+    border-radius: 50%;
+  }
+  .icon .insta{
+    background: linear-gradient(to bottom, #ff6600 0%,#cc66ff 100%);
+    border-radius: 50%;
+  }
+  .icon .goo{
+    background-color: rgba(255, 0, 0, 0.753);
+     border-radius: 50%;
+  }
+  .cont-or{
+    margin-top:25px;
+  }
+  .cont-or span{
+    color:white;
+    font-size: 15px;  
+    background-color:black;
+
+  }
+
+  .cont-or hr{
+    padding:1px;
+  }
+  .cont-or .or{
+    position: relative;
+    bottom: 30px;
+    
+  }
+  .ups{
+    background-image: url('https://img.freepik.com/free-vector/realistic-pink-product-podium-with-golden-round-arch-palm-leaf-clouds_87521-3010.jpg?size=626&ext=jpg&ga=GA1.1.1719430529.1682588154&semt=ais');
+    width: 100%;
+    background-position:right;
+    height: 100vh;
+    background-repeat:no-repeat; 
+    background-size: 100% 100%;
+  }
+  .cos{
+    background-image: url('https://img.freepik.com/free-photo/adorable-illustration-kittens-playing-forest-generative-ai_260559-483.jpg?size=626&ext=jpg&ga=GA1.1.1719430529.1682588154&semt=ais');
+    width: 100%;
+    background-position:right;
+    height:600px;
+    background-repeat:no-repeat; 
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cos h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+  }
+  table button{
+    background: linear-gradient(to bottom, #ccff99 0%, #ffccff 100%);
+border: none;
+padding: 7px 50px;
+  }
+  .icon i{
+    color: gray;
+    padding: 10px;
+}
+.iconss i{
+    color: gray;
+    padding: 10px;
+    font-size: 18px;
+}
+.imgs{
+    width: 100%;
+    opacity: 0.8;
+}
+.btndiv button{
+    background-color: white;
+    padding:10px ;
+    width: 50%;
+}
+.diva{
+    position: relative;
+    bottom: 50%;
+}
+.imags{
+    position: relative;
+    bottom: 45%;
+}
+.imag{
+    width: 100%;
+}
+.image{
+    background-image: url("../images/mohammad-metri-E-0ON3VGrBc-unsplash.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 500px;
+}
+.cont2{
+background-color: gainsboro;
+}
+.bag{
+   padding: 150px;
+}
+.images{
+    position: absolute;
+    bottom: -585%;
+}
+.mag{
+    margin-top: 110px;
+}
+.diva input{
+width: 30%;
+padding: 10px;
+background-color: rgba(248, 248, 255, 0.041);
+
+}
+.diva button{
+    background-color: rgba(220, 220, 220, 0.199); 
+    padding: 10px; 
+}
+.divas p{
+    color: gray;
+}
